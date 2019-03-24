@@ -1,0 +1,40 @@
+{
+  "name": "express-memory-cache",
+  "version": "0.1.0",
+  "description": "Express Middleware to cache responses in-memory",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist && NODE_PATH=./ tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joneubank/express-memory-cache.git"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "typescript",
+    "node",
+    "caching",
+    "memory-cache"
+  ],
+  "author": "Jon Eubank",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/joneubank/express-memory-cache/issues"
+  },
+  "homepage": "https://github.com/joneubank/express-memory-cache#readme",
+  "dependencies": {
+    "memory-cache": "^0.2.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/memory-cache": "^0.2.0",
+    "@types/node": "^8.0.51",
+    "typescript": "^3.3.3"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "singleQuote": true
+  }
+}
