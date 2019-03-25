@@ -2,9 +2,9 @@
   "name": "express-memory-cache",
   "version": "0.1.0",
   "description": "Express Middleware to cache responses in-memory",
-  "main": "index.js",
+  "main": "cache.js",
   "scripts": {
-    "build": "rm -rf dist && mkdir dist && NODE_PATH=./ tsc"
+    "build": "rm -rf dist && mkdir dist && tsc"
   },
   "repository": {
     "type": "git",
